@@ -209,10 +209,10 @@ const abi = [
   }
 ];
 
-const contract = new web3.eth.Contract(abi, contractAddress, {
-  from: account,
-  gasLimit: 3000000
-});
+// const contract = new web3.eth.Contract(abi, contractAddress, {
+//   from: account,
+//   gasLimit: 3000000
+// });
 
 router.get("/", (req, res, next) => {
   res.status(200).json({
