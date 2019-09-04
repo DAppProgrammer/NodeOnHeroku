@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-// const Web3 = require("web3");
+const Web3 = require("web3");
 // const Tx = require("ethereumjs-tx").Transactions;
 
 // const web3 = new Web3(
