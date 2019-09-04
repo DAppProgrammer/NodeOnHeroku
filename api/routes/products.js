@@ -4,11 +4,11 @@ const router = express.Router();
 // const Web3 = require("web3");
 // const Tx = require("ethereumjs-tx").Transactions;
 
-const web3 = new Web3(
-  new Web3.providers.HttpProvider(
-    "ropsten.infura.io/v3/7fcdaea3a1c740c2be397cb7c46f1665"
-  )
-);
+// const web3 = new Web3(
+//   new Web3.providers.HttpProvider(
+//     "ropsten.infura.io/v3/7fcdaea3a1c740c2be397cb7c46f1665"
+//   )
+// );
 const account = "0x8B5B29709145CEfd829b403A8Feee3a1C78f24BB";
 const privateKey = Buffer.from(
   "AF31661BB9B9DD0FC411155B9887157687CC389947CF68A7E15EA867729B0973",
